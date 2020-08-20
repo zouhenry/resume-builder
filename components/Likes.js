@@ -1,18 +1,18 @@
 import styles from '../styles/Index.module.css'
 
-export function Seeking({ seeking }) {
-  if (!seeking) return null;
+export function Likes({ likes }) {
+  if (!likes) return null;
 
   return (
     <div className={styles.section}>
       <div className={styles.sectionHeading}>
-        Seeking
+        Likes
       </div>
       <div className={styles.interestsContainer}>
-        {seeking.map(skill => {
+        {likes.map(like => {
           return (
             <div className={styles.skill}>
-              <div className={styles.skillName}>{skill}</div>
+              <div className={styles.skillName}>{like}</div>
             </div>
           )
         })}

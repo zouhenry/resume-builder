@@ -23,8 +23,9 @@ When printing to PDF, please make sure ```Background graphics``` print option is
 
 TODOs:
 1. Create JSON editor => real time update on resume
-2. Allow multi-page resumes
-3. Create multiple resume templates
-4. Create CSS edition
-5. Add section configuration
-6. Add user friendly form editor
+1. Host it somewhere
+1. Allow multi-page resumes
+1. Create multiple resume templates
+1. Create CSS edition
+1. Add section configuration
+1. Add user friendly form editor

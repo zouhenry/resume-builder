@@ -103,7 +103,8 @@
             "score": "Beginner"
         }
     ],
-    "seeking": [
+    "likes": [
+        "To get things done",
         "Cross-functional teams",
         "Collaborative culture",
         "Agile/Scrum",
@@ -116,7 +117,7 @@
             "employer": "Company A",
             "city": "Boston",
             "state": "MA",
-            "startDate": "2017-05",
+            "startDate": "05/2017",
             "endDate": null,
             "accomplishments": [
                 "Optimized application load time by 600%",
@@ -129,8 +130,8 @@
             "employer": "Company B",
             "city": "Boston",
             "state": "MA",
-            "startDate": "2015-06",
-            "endDate": "2017-05",
+            "startDate": "06/2015",
+            "endDate": "05/2017",
             "accomplishments": [
                 "Created UI Framework resulting in 500% faster new projects",
                 "Provided guidance and mentored product teams"
@@ -141,8 +142,8 @@
             "employer": "Company C",
             "city": "Boston",
             "state": "MA",
-            "startDate": "2015-06",
-            "endDate": "2017-05",
+            "startDate": "06/2015",
+            "endDate": "05/2017",
             "accomplishments": [
                 "Introduced best practices and standards to promote maintainable code",
                 "Created scaffolding tool to auto-generate common page recipes"
@@ -153,8 +154,8 @@
             "employer": "Company D",
             "city": "Boston",
             "state": "MA",
-            "startDate": "10-2014",
-            "endDate": "06-2015",
+            "startDate": "10/2014",
+            "endDate": "06/2015",
             "accomplishments": [
                 "Defined the Application’s architecture, patterns, and coding guidelines",
                 "Mentored teammates with regular training sessions"
@@ -166,8 +167,8 @@
             "description": "",
             "city": "Boston",
             "state": "MA",
-            "startDate": "11-2011",
-            "endDate": "10-2014",
+            "startDate": "11/2011",
+            "endDate": "10/2014",
             "accomplishments": [
                 "Started a weekly lunch-and-learn program to improve developers’ technical skills",
                 "Defined architectural patterns and guidelines resulting in a consistent code base",
@@ -179,8 +180,8 @@
             "employer": "Company F",
             "city": "Boston",
             "state": "MA",
-            "startDate": "03-2009",
-            "endDate": "11-2011",
+            "startDate": "03/2009",
+            "endDate": "11/2011",
             "accomplishments": [
                 "Created an application framework to allow fast application development",
                 "Automated 75% of Unit Tests resulting in faster deliverables"

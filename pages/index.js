@@ -3,7 +3,7 @@ import styles from '../styles/Index.module.css'
 import { Contact } from '../components/Contact';
 import { Education } from '../components/Education';
 import { NameAndTitle } from '../components/NameAndTitle';
-import { Seeking } from '../components/Seeking';
+import { Likes } from '../components/Likes';
 import { Skills } from '../components/Skills';
 import { WorkHistory } from '../components/WorkHistory';
 import resume from '../config/resume.json';
@@ -23,7 +23,7 @@ export default function Viewer() {
           title={resume.personal.title} />
         <Contact personal={resume.personal} />
         <Skills skills={resume.skills} />
-        <Seeking seeking={resume.seeking} />
+        <Likes likes={resume.likes} />
       </div>
 
       <main className={styles.main}>
