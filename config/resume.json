@@ -1,0 +1,198 @@
+{
+    "personal": {
+        "firstName": "John",
+        "lastName": "Smith",
+        "title": "Software Engineer",
+        "phone": "(123) 456-7890",
+        "email": "johnsmith@domain.com",
+        "address": {
+            "city": "Boston",
+            "state": "MA",
+            "zipcode": "12345"
+        },
+        "linkedIn": "https://www.linkedin.com/in/johnsmith/",
+        "github": "https://github.com/johnsmith"
+    },
+    "skills": [
+        {
+            "name": "JavaScript",
+            "score": "Advanced"
+        },
+        {
+            "name": "ES6+",
+            "score": "Advanced"
+        },
+        {
+            "name": "React/Redux",
+            "score": "Advanced"
+        },
+        {
+            "name": "AngularJS",
+            "score": "Advanced"
+        },
+        {
+            "name": "HTML/CSS",
+            "score": "Advanced"
+        },
+        {
+            "name": "SASS/LESS",
+            "score": "Proficient"
+        },
+        {
+            "name": "css-in-js",
+            "score": "Advanced"
+        },
+        {
+            "name": "lodash",
+            "score": "Advanced"
+        },
+        {
+            "name": "REST",
+            "score": "Advanced"
+        },
+        {
+            "name": "Highcharts",
+            "score": "Proficient"
+        },
+        {
+            "name": "CanvasJs",
+            "score": "Proficient"
+        },
+        {
+            "name": "Node.js",
+            "score": "Proficient"
+        },
+        {
+            "name": "Git",
+            "score": "Advanced"
+        },
+        {
+            "name": "unit tests",
+            "score": "Advanced"
+        },
+        {
+            "name": "Webpack",
+            "score": "Advanced"
+        },
+        {
+            "name": "npm",
+            "score": "Advanced"
+        },
+        {
+            "name": "Jenkins",
+            "score": "Proficient"
+        },
+        {
+            "name": "Docker",
+            "score": "Proficient"
+        },
+        {
+            "name": "OpenShift",
+            "score": "Proficient"
+        },
+        {
+            "name": "C#",
+            "score": "Beginner"
+        },
+        {
+            "name": "Java",
+            "score": "Beginner"
+        },
+        {
+            "name": "Databases",
+            "score": "Beginner"
+        }
+    ],
+    "seeking": [
+        "Cross-functional teams",
+        "Collaborative culture",
+        "Agile/Scrum",
+        "Fast-paced"
+    ],
+    "summary": "Classically trained front-end focused engineer with 14 years of experience with emphasis on writing clean, reusable, scalable, maintainable, and robust code. Natural mentor who helps others to become their tomorrow’s better selves. Passionate leader with focus on improving efficiency through frameworks, training, tooling, workflows and code optimizations.",
+    "history": [
+        {
+            "title": "Senior Software Engineer",
+            "employer": "Company A",
+            "city": "Boston",
+            "state": "MA",
+            "startDate": "2017-05",
+            "endDate": null,
+            "accomplishments": [
+                "Optimized application load time by 600%",
+                "Upgraded aging build and test frameworks, resulting in faster development cadence and 500% more tests written",
+                "Implemented Node.js docker microservice deployed to AWS Cloud Services"
+            ]
+        },
+        {
+            "title": "Front End Consultant",
+            "employer": "Company B",
+            "city": "Boston",
+            "state": "MA",
+            "startDate": "2015-06",
+            "endDate": "2017-05",
+            "accomplishments": [
+                "Created UI Framework resulting in 500% faster new projects",
+                "Provided guidance and mentored product teams"
+            ]
+        },
+        {
+            "title": "Front End Consultant",
+            "employer": "Company C",
+            "city": "Boston",
+            "state": "MA",
+            "startDate": "2015-06",
+            "endDate": "2017-05",
+            "accomplishments": [
+                "Introduced best practices and standards to promote maintainable code",
+                "Created scaffolding tool to auto-generate common page recipes"
+            ]
+        },
+        {
+            "title": "Senior Software Engineer",
+            "employer": "Company D",
+            "city": "Boston",
+            "state": "MA",
+            "startDate": "10-2014",
+            "endDate": "06-2015",
+            "accomplishments": [
+                "Defined the Application’s architecture, patterns, and coding guidelines",
+                "Mentored teammates with regular training sessions"
+            ]
+        },
+        {
+            "title": "Principal Software Engineer",
+            "employer": "Company E",
+            "description": "",
+            "city": "Boston",
+            "state": "MA",
+            "startDate": "11-2011",
+            "endDate": "10-2014",
+            "accomplishments": [
+                "Started a weekly lunch-and-learn program to improve developers’ technical skills",
+                "Defined architectural patterns and guidelines resulting in a consistent code base",
+                "Optimized application performance by 600%"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "employer": "Company F",
+            "city": "Boston",
+            "state": "MA",
+            "startDate": "03-2009",
+            "endDate": "11-2011",
+            "accomplishments": [
+                "Created an application framework to allow fast application development",
+                "Automated 75% of Unit Tests resulting in faster deliverables"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "University of Massachusetts, Amherst",
+            "degree": "B.S. Computer Science",
+            "startDate": "2003",
+            "endDate": "2007"
+        }
+    ]
+}

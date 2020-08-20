@@ -1,0 +1,178 @@
+
+@page { size:8.5in 11in; margin: 0cm }
+
+.container {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;  min-height: 100vh;
+  font-weight: lighter;
+  height: 100%;
+  display: flex;
+  width: 1024px; /* for printing */
+  margin-left: auto;
+  margin-right: auto;
+  --text-gray: #9a9b9b;
+  --text-dark-gray: #090909;
+  --link-color: #003d73;
+  --bg-blue: #003d73;
+  --bg-heading-blue: #00305e;
+}
+
+.leftbox {
+  color:#fff;
+  min-width: 200px;
+  background-color: var(--bg-blue);
+  min-height: 1292px; /* for printing */
+  padding: 16px;
+  box-sizing: initial;
+
+}
+
+.resumeTitle {
+  font-size: 1.25rem;
+  padding-top: 3px;
+  padding: 8px 0px;
+}
+
+.resumeName {
+  font-size: 2rem;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 16px 0px;
+}
+
+.sectionHeading {
+    font-weight: normal;
+    padding: 8px 16px;
+    font-size: 1.375rem;
+    margin: 16px -16px 4px;
+    background-color: var(--bg-heading-blue);
+}
+
+.field {
+  padding: 4px 0;
+}
+
+.fieldName {
+  line-height: 1.75rem;
+  font-weight: 700
+}
+
+.fieldValue {
+  font-size: 0.875rem;;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875em;
+  line-height: 1.75rem;
+}
+
+.historyHeading {
+  font-size: 1.5rem;
+  padding:8px 0;
+  margin:16px 0;
+  color: var(--bg-blue);
+  border-bottom: 2px solid var(--text-gray);
+}
+
+.historyItem {
+  padding-top: 16px;
+  display: flex;
+}
+
+.historyLeftPane {
+  padding-right: 3rem;
+}
+
+.startEndDate {
+  font-size: 1.125rem;
+  white-space: nowrap;
+}
+
+.jobHeading {
+  width: 100%;
+  padding-bottom: 4px;
+  display: inline-grid;
+  grid-template-columns: 175px auto 125px;
+}
+
+.jobTitle {
+  font-size: 1.125rem;
+}
+
+.employer {
+  color: var(--bg-blue);
+  font-size: 1.125rem;
+}
+
+.jobItem {
+  width: 100%;
+}
+
+.jobAccomplishments {
+  margin-top: 4px;
+  margin-left: -16px;
+  padding-left: -16px;
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+
+.jobAccomplishment{
+  margin-bottom: 4px;
+}
+
+.jobDescription {
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1.125rem;
+}
+
+.employerAddress {
+  color: var(--text-gray);
+}
+
+.main {
+  padding: 32px;
+  color: var(--text-dark-gray);
+
+}
+
+.summary {
+  color: var(--text-dark-gray);
+  line-height: 1.5rem;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.educationContainer {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.degree {
+  font-weight: 3;
+}
+
+.educationHeading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 16px 0;
+}
+
+.education {
+  font-weight: bold;
+}
+
+.gitFooter {
+  position: fixed;
+  bottom: 10px;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.link {
+  color: var(--link-color);
+  cursor: pointer;
+}
