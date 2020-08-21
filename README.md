@@ -24,6 +24,7 @@ When printing to PDF, please make sure ```Background graphics``` print option is
 TODOs:
 1. Create JSON editor => real time update on resume
 1. Host it somewhere
+1. Fix footer credit link positioning
 1. Allow multi-page resumes
 1. Create multiple resume templates
 1. Create CSS edition

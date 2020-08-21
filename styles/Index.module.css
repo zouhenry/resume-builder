@@ -1,11 +1,37 @@
 
 @page { size:8.5in 11in; margin: 0cm }
+@media print
+{    
+    .noPrint, .noPrint *
+    {
+        display: none !important;
+    }
+}
 
-.container {
+.page {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;  min-height: 100vh;
   font-weight: lighter;
   height: 100%;
+  display: grid;
+  grid-template-columns: 1024px auto;
+}
+
+.editorContainer {
+  height: 100%;
+  width: 100%;
+  padding: 32px 0 32px 32px;
+}
+
+.editor {
+  min-height: 100vh;
+  height: 100%;
+  width: calc(100vw - 1100px);
+  border-color: darkgray;
+  padding: 16px;
+}
+
+.container {
   display: flex;
   width: 1024px; /* for printing */
   margin-left: auto;

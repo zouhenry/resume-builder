@@ -31,10 +31,12 @@ function WorkHistoryItem({ record }) {
 }
 
 export function WorkHistory({ history }) {
+  if (!history) return null;
+  
   return (
     <div>
       <div className={styles.historyHeading}>Work History</div>
-      {history.map(item => <WorkHistoryItem record={item} />)}
+      {history.map(item => <WorkHistoryItem key={item.employer + item.title} record={item} />)}
     </div>
   )
 }
