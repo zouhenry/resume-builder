@@ -8,10 +8,10 @@ export function Likes({ likes }) {
       <div className={styles.sectionHeading}>
         Likes
       </div>
-      <div className={styles.interestsContainer}>
+      <div>
         {likes.map(like => {
           return (
-            <div className={styles.skill}>
+            <div key={like} className={styles.skill}>
               <div className={styles.skillName}>{like}</div>
             </div>
           )

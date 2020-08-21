@@ -1,6 +1,8 @@
 import styles from '../styles/Index.module.css'
 
 export function Education({ education }) {
+  if (!education) return null;
+  
   return (
     <div >
       <div className={styles.historyHeading}>Education</div>

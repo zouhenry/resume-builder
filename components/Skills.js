@@ -11,7 +11,7 @@ export function Skills({ skills }) {
       <div className={styles.skillsContainer}>
         {skills.map(skill => {
           return (
-            <div className={styles.skill}>
+            <div key={skill.score + skill.name} className={styles.skill}>
               <div className={styles.skillName}>{skill.name}</div>
               <div className={styles.skillRating}>{skill.score}</div>
             </div>
